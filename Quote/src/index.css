@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Anek Devanagari", sans-serif;
+  position: relative;
+  background-color: #3498db;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  background-color: black;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  padding: 10px 20px;
+}
+
+.full {
+  width: 100%;
+  position: relative;
+  margin-top: 4rem;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.quotes-main-box {
+  width: 75%;
+  margin: 5% 0;
+  height: auto;
+  background-color: #e67e22;
+  border-radius: 0.5rem;
+}
+
+.main-title {
+  width: 100%;
+}
+
+.main-title>h3 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #fff;
+  padding: 5px 0;
+  position: relative;
+  margin: 15px 0;
+}
+
+.main-title>h3::after {
+  position: absolute;
+  background-color: #000;
+  content: '';
+  height: 3px;
+  margin: 0 auto;
+  width: 20%;
+  left: 0;
+  right: 0;
+  bottom: 5px;
+}
+
+.qutoes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+
+.button {
+  width: 200px;
+  height: 35px;
+  margin: 15px 0;
+  border: 1px solid transparent;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  background-color: #e30613;
+}
+
+.quotes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  color: #33d9b2;
+  text-align: center;
+  line-height: 35px;
+  word-spacing: 5px;
+  padding: 0 25px;
+}
+
+.quote-author{
+  font-style: italic;
+  margin-top: 10px;
+}
